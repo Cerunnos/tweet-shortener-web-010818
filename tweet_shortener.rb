@@ -11,5 +11,5 @@ def dictionary(tweet)
     "at"=>"@"
     "and"=>"&"
   }
-  
+
 end
