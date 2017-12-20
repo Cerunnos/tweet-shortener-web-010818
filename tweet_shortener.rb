@@ -1,4 +1,4 @@
-def dictionary
+def dictionary(tweet)
   dictionary_hash={
     "hello"=>"hi",
     "to"=>"2"
@@ -11,4 +11,5 @@ def dictionary
     "at"=>"@"
     "and"=>"&"
   }
+  
 end
