@@ -14,7 +14,7 @@ def dictionary
 end
 def word_substituter(tweet)
   var1=tweet.split
-  var1.collect do |entry|
+  tweet.split.collect do |entry|
     if dictionary.keys.includes?(entry.downcase)
       entry=dictionary[entry.downcase]
     else
