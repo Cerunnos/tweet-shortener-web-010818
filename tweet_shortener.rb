@@ -13,6 +13,8 @@ def dictionary
   }
 end
 def word_substituter(tweet)
-  var1=tweet.to_a
-  var1.
+  var1=tweet.split
+  var1.collect do |entry|
+
+  end
 end
