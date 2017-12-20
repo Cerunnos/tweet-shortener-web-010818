@@ -11,5 +11,5 @@ dictionary={
   "and"=>"&"
 }
 def word_substituter(tweet)
-
+  var1=tweet.to_a
 end
