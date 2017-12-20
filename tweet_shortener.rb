@@ -12,6 +12,7 @@ def dictionary
     "and"=>"&"
   }
 end
+
 def word_substituter(tweet)
   tweet.split.collect do |entry|
     if dictionary.keys.include?(entry.downcase)
@@ -21,6 +22,7 @@ def word_substituter(tweet)
     end
   end.join(" ")
 end
-def selective_tweet_shortener
 
+def bulk_tweet_shortener
+  
 end
